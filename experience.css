@@ -1,0 +1,225 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600&display=swap');
+*{
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+   text-decoration: none;
+   border: none;
+   outline: none;
+   font-family: 'Poppins', sans-serif;
+}
+
+html{
+   font-size: 62.5%;
+}
+
+body{
+   width: 100%;
+   height: 100vh;
+   overflow-x: hidden;
+   background-color: black;
+   color: white;
+}
+header{
+    margin-top: 15px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 1rem 9%;
+    background-color: transparent;
+    filter: drop-shadow(10px);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+    }
+section.home {
+    margin-top: 80px; 
+}
+.logo {
+    width: 300px; 
+    height: auto;
+    transition: 0.5s ease;
+}
+.logo:hover {
+    transform: scale(1.1);
+}
+nav a{
+   font-size: 1.8rem;
+   color: white;
+   margin-left: 4rem;
+   font-weight: 500;
+   transition: 0.3s ease;
+   border-bottom: 3px solid transparent;
+}
+
+nav a:hover,
+nav a.active{
+   color: #b74b4b;
+   border-bottom: 3px solid #b74b4b;
+}
+
+@media(max-width:995px){
+   nav{
+       position: absolute;
+       display: none;
+       top: 0;
+       right: 0;
+       width: 40%;
+       border-left: 3px solid #b74b4b;
+       border-bottom: 3px solid #b74b4b;
+       border-bottom-left-radius: 2rem;
+       padding: 1rem solid;
+       background-color: #161616;
+       border-top: 0.1rem solid rgba(0,0,0,0.1);
+   }
+
+   nav.active{
+       display: block;
+   }
+
+   nav a{
+       display: block;
+       font-size: 2rem;
+       margin: 3rem 0;
+   }
+
+   nav a:hover,
+   nav a.active{
+       padding: 1rem;
+       border-radius: 0.5rem;
+       border-bottom: 0.5rem solid #b74b4b;
+   }
+}
+.action_btn{
+background-color: #b74b4b;
+text-decoration: none;
+font-size: 1.5rem;
+margin: 3rem 0;
+color: #fff;
+cursor: pointer;
+font-weight: bold;
+border-radius: 20px;
+outline: none;
+border: none;
+padding: 1rem 2rem;
+transition: background-color 0.3s ease;
+
+}
+.action_btn:hover{
+transform: scale3d(1.03);
+background-color: #b74b4b;
+color: #fff;
+box-shadow: 0 0 25px #b74b4b;
+}
+.box1{
+    position: absolute;
+    top: 40%;
+    left: 10%;
+    height: 200px;
+    width: 500px;
+    border: 2px solid #b74b4b;
+    border-radius: 20px;
+    box-shadow: 0 0 30px  #b74b4b ;
+    color: #b74b4b;
+    text-align: center;
+    font-size: 2em;
+    font-weight: 600;
+    text-transform: uppercase;
+    padding-top: 20px;
+    transition: .4s ease;
+}
+.box1:hover{
+    transform: scale(1.1);
+}
+.box1 p{
+    font-size: .7em;
+    text-align: left;
+    padding-left: 30px;
+    padding-top: 20px;
+}
+.box2{
+    position: absolute;
+    top: 40%;
+    left: 55%;
+    height: 200px;
+    width: 500px;
+    border: 2px solid #b74b4b;
+    border-radius: 20px;
+    box-shadow: 0 0 30px  #b74b4b ;
+    color: #b74b4b;
+    text-align: center;
+    font-size: 2em;
+    font-weight: 600;
+    text-transform: uppercase;
+    padding-top: 20px;
+    transition: .4s ease;
+}
+.box2:hover{
+    transform: scale(1.1);
+}
+.box2 p{
+    font-size: .7em;
+    text-align: left;
+    padding-left: 30px;
+    padding-top: 20px;
+}
+.box3{
+    position: absolute;
+    top: 70%;
+    left: 10%;
+    height: 200px;
+    width: 500px;
+    border: 2px solid #b74b4b;
+    border-radius: 20px;
+    box-shadow: 0 0 30px  #b74b4b ;
+    color: #b74b4b;
+    text-align: center;
+    font-size: 2em;
+    font-weight: 600;
+    text-transform: uppercase;
+    padding-top: 20px;
+    transition: .4s ease;
+}
+.box3:hover{
+    transform: scale(1.1);
+}
+.box3 p{
+    font-size: .7em;
+    text-align: left;
+    padding-left: 30px;
+    padding-top: 20px;
+}
+.box4{
+    position: absolute;
+    top: 70%;
+    left: 55%;
+    height: 200px;
+    width: 500px;
+    border: 2px solid #b74b4b;
+    border-radius: 20px;
+    box-shadow: 0 0 30px  #b74b4b ;
+    color: #b74b4b;
+    text-align: center;
+    font-size: 2em;
+    font-weight: 600;
+    text-transform: uppercase;
+    padding-top: 20px;
+    transition: .4s ease;
+}
+.box4:hover{
+    transform: scale(1.1);
+}
+.box4 p{
+    font-size: .7em;
+    text-align: left;
+    padding-left: 30px;
+    padding-top: 20px;
+}
+.input-boxy{
+    position: relative;
+    width: 100%;
+    height: 880px;
+    border-bottom: 2.5px solid #b74b4b;
+}
